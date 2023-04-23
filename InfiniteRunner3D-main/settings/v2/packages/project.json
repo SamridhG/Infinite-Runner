@@ -1,0 +1,14 @@
+{
+  "general": {
+    "highQuality": true,
+    "designResolution": {
+      "fitHeight": true
+    }
+  },
+  "__version__": "1.0.4",
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  }
+}

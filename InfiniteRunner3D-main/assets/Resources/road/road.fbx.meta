@@ -1,0 +1,138 @@
+{
+  "ver": "2.3.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1cca3e9c-922c-4b6c-b7e7-ab149365b493",
+  "files": [],
+  "subMetas": {
+    "1538a": {
+      "importer": "gltf-mesh",
+      "uuid": "1cca3e9c-922c-4b6c-b7e7-ab149365b493@1538a",
+      "displayName": "",
+      "id": "1538a",
+      "name": "road.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "35ea4": {
+      "importer": "gltf-material",
+      "uuid": "1cca3e9c-922c-4b6c-b7e7-ab149365b493@35ea4",
+      "displayName": "",
+      "id": "35ea4",
+      "name": "road.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09d61": {
+      "importer": "gltf-scene",
+      "uuid": "1cca3e9c-922c-4b6c-b7e7-ab149365b493@09d61",
+      "displayName": "",
+      "id": "09d61",
+      "name": "road.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "1cca3e9c-922c-4b6c-b7e7-ab149365b493@09d61",
+    "assetFinder": {
+      "meshes": [
+        "1cca3e9c-922c-4b6c-b7e7-ab149365b493@1538a"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "1cca3e9c-922c-4b6c-b7e7-ab149365b493@35ea4"
+      ],
+      "scenes": [
+        "1cca3e9c-922c-4b6c-b7e7-ab149365b493@09d61"
+      ]
+    },
+    "materials": {
+      "1cca3e9c-922c-4b6c-b7e7-ab149365b493@35ea4": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 14,
+              "g": 1,
+              "b": 1,
+              "a": 255
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}
